@@ -4,6 +4,9 @@ author:
   email: womogenes@gmail.com
 description: Miscellaneous content
 
+# Github pages uses /blog
+baseurl: "/blog"
+
 show_excerpts: true # set to true to show excerpts on the homepage
 
 defaults:
