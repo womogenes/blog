@@ -6,7 +6,7 @@ description: Miscellaneous content
 
 # Github pages uses /blog
 baseurl: "/blog"
-site_url: "https://womogenes.github.io/blog/"
+url: "https://womogenes.github.io/blog/"
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
