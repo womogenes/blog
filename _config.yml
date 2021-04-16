@@ -9,10 +9,18 @@ baseurl: "/blog"
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: "William"
+
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
-  date_format: "%b %-d, %Y"
+  date_format: "%B %-d, %Y"
 
   # generate social links in footer
   social_links:
@@ -49,11 +57,12 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+ - about.md
 
 # Build settings
 theme: minima
+markdown: kramdown
 
 plugins:
  - jekyll-feed
