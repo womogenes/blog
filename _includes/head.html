@@ -2,9 +2,17 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- opengraph stuff -->
+  <meta property="og:title" content="womogenes" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://womogenes.github.io/blog" />
+  <meta property="og:image" content="https://womogenes.github.io/blog/images/preview.png" />
+  <meta property="og:description" content="Hello! My name is William, and this is a container for my random thoughts." />
+
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-  <link rel="shortcut icon" type="image/ico" href="./womogenes.ico"/>
+  <link rel="shortcut icon" type="image/ico" href="./images/womogenes.ico"/>
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
