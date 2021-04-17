@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hey, I'm William! This is a collection of my thoughts. Check out the [welcome post]({{site.relative_url}}{% post_url 2021-04-16-welcome %}) for more info.
+Hey, I'm William! This is a collection of my thoughts. Check out the [welcome post]({{site.url}}{% post_url 2021-04-16-welcome %}) for more info.
 
 ## Contact
 
