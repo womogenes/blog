@@ -6,7 +6,6 @@ description: Miscellaneous content
 
 # Github pages uses /blog
 baseurl: /blog
-permalink: /:title
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
