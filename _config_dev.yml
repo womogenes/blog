@@ -1,0 +1,4 @@
+name: MySite [DEBUG MODE]
+debug: true
+url: http://localhost:4000
+baseurl: ""
