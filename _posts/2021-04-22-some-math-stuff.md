@@ -29,7 +29,7 @@ $$
 x^3 + y^3 &= (x + y)^2 \\
 (x + y)(x^2 - xy + y^2) &= (x + y)^2
 \end{align*}
-$$ {math}
+$$
 
 We know that $x + y = 0$ is a solution from $x = y = 0$. Thus, we'll assume $x + y \neq 0$ from here on. We divide both sides by $x + y$:
 
@@ -52,6 +52,7 @@ s^2 - s &= 3p \\
 $$
 
 And, using $p \le s^2/4$, we get
+
 $$
 \begin{align*}
 s^2 - s \le 3s^2/4 \\
@@ -60,6 +61,7 @@ s/4 - 1 \le 0 \\
 s \le 4.
 \end{align*}
 $$
+
 Therefore, $s$ is nonnegative and at most 4. Now it's time to prove that all values in that range are possible.
 
 ***
@@ -80,9 +82,10 @@ Using the quadratic formula to solve for $x$, we get
 $$
 \begin{align*}
 x &= \dfrac{3s \pm \sqrt{9s^2 - 4(3)(s^2 - s)}}{6} \\[0.5em]
-&= \dfrac{3s \pm \sqrt{-3s^2 + 12s}}{6}
+&= \dfrac{3s \pm \sqrt{-3s^2 + 12s}}{6}.
 \end{align*}
 $$
+
 The discriminant is positive only for $0 \le s \le 4$, which happens to be a range we've already restricted $s$ down to. Thus, there exist $x$ and $y$ such that $x^3 + y^3 = (x + y)^2$ and $x + y = s$ for all $0 \le s \le 4$. $\quad\blacksquare$
 
 ***
