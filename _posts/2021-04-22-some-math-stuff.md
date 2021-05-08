@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A math problem
+excerpt: An interesting math problem.
 ---
 
 Here's a math problem:
